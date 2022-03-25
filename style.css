@@ -1,1 +1,106 @@
+* {
+    background-image: url("under-the-bridge.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+body{
+    margin: 10px;
+    /*  background: rgba(12, 13, 24, 0.466); */
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 27px;
+    
+  
+    
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+/* header { */
+     /* background: rgba(2, 1, 7, 0.726); }*/
+
+.logo {
+    float: left;
+    color: rgba(9, 15, 7, 0.849);
+    padding: 0px;
+    /* font-size: 20px; */
+    width: 320px;
+    height:160px;
+    border: 10px solid;
+    
+    
+}
+ nav {
+     float: right;
+     padding-right: 39px;
+     border-right: 10px solid
+
+}
+
+nav ul {
+    margin: 0;
+    padding : 0;
+    list-style: none;
+}
+
+nav li  {
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: rgb(255, 234, 47);
+    /* text-decoration-color: blue; */
+    text-transform: uppercase;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color:rgb(181, 199, 16);
+    
+    position: absolute;
+    top: 10;
+    width:0%;
+}
+
+
+
+/* footer.links */
+
+#html5 {
+    color: orange;
+    align-items: center;
+    position: center;
+};
+
+
+.text {
+    
+    color: white;
+    align-content: center;
+    }
+
+#JS {
+    color: yellow;
+}
+
+
+ #css3 { 
+    color:Blue;
+}
+
 
